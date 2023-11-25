@@ -1,9 +1,10 @@
 ---
 galaxy_info:
+  role_name: httpd_proxy
   license: Apache-2.0
   author: Pablo Felix Estevez Pico
   description: This role sets up a proxy using the Apache HTTP Server (httpd) on Fedora systems.
-  min_ansible_version: 2.4
+  min_ansible_version: "2.4"
   platforms:
   - name: Fedora
     versions:
